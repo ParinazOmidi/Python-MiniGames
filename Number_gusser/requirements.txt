@@ -1,0 +1,10 @@
+numpy==1.26.4
+import os 
+# .. other safe imports
+try:
+    import numpy as np
+    import pyfits
+    # other unsafe imports
+except ImportError:
+    print "Error: missing one of the libraries (numpy, pyfits, scipy, matplotlib)"
+    
