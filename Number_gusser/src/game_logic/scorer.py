@@ -1,4 +1,4 @@
-class score: 
+class Score: 
     def __init__(self, initial_score=100):
         self.score = initial_score
 
@@ -10,10 +10,7 @@ class score:
     def get_score (self): 
         ##return current score##
         return self.score
-def scorer(): 
-    return score()
-# if __name__ == '__main__':
-#     score()
+
 
 
 
